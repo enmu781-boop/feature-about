@@ -1,9 +1,9 @@
 git checkout -b feature/profile-page
-My Profile
-I like play game
-I study at school
-I learn Git
-Nice to meet you
+echo "ชื่อ: โอบอ้อม ธรรมชัย
+สาขา: เทคโนโลยีสารสนเทศ
+สถานศึกษา: วิทยาลัยอาชีวศึกษาลำปาง
+ความสนใจ: เกม เพลง
+อายุ: 17ปี"
 git add profile.txt
-git commit -m "create profile page draft"
-git push -u origin feature/profile-page
+git commit -m "Add about.md"
+git push -u origin feature/about
